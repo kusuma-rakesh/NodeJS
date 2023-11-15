@@ -1,5 +1,3 @@
-//const { response } = require("express")
-
 console.log("Javascript Code calling from Script Tags")
 //'http://puzzle.mead.io/puzzle' --> generates a new response on every refresh 
 // fetch('http://puzzle.mead.io/puzzle').then((response)=>{
