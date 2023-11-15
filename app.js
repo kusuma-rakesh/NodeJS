@@ -146,7 +146,7 @@ app.get('/weather',(req,res) =>{
 
 
 //start server by listen
-app.listen(3000,()=>{
+app.listen(9001,()=>{
     console.log('server started by using port -3000');
 })
 
