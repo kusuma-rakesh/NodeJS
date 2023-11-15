@@ -49,7 +49,7 @@ weatherForm.addEventListener('submit',(e)=>{
             messageOne.textContent = data.error;
         }else{             
             messageOne.textContent = data.address;
-            messageTwo.textContent='Curent Temperature in '+data.address+' is: '+data.forecast.temperature;
+            messageTwo.textContent='Curent Temperature in '+data.address+' Is: '+data.forecast.temperature;
             }
         })
     })
